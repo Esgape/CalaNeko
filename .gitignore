@@ -1,0 +1,8 @@
+﻿__pycache__/
+*.pyc
+build/
+dist/
+dist_release/
+*.log
+logs/
+config/config.json
