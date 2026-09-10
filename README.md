@@ -73,11 +73,15 @@ python tests/test_core.py
 
 本项目部分设计与实现参考了以下开源项目，在此致谢：
 
-- **[quick-fps-optimizer](https://github.com/quick-fps-optimizer)**：durable ledger（崩溃恢复持久化）设计
-- **Pavise-Game**：崩溃自愈（HealFromCrash）、启动参数、单实例互斥设计
-- **[ProcGovernor](https://github.com/Prohect/ProcGovernor)**：可选第二引擎（Windows 进程治理工具），默认不内置，可自行下载放入 `engine/ProcGovernor/`
+- **[quick-fps-optimizer](https://github.com/SeguraM03/quick-fps-optimizer)**（MIT）：durable ledger（崩溃恢复持久化）设计
+- **[Pavise-Game](https://github.com/dulaiduwang003/Pavise-Game)**（Pavise 许可协议，非商业）：崩溃自愈（HealFromCrash）、启动参数、单实例互斥设计参考
+- **[ProcGovernor](https://github.com/Prohect/ProcGovernor)**（CC0 公有领域）：可选第二引擎（Windows 进程治理工具），默认不内置，可自行下载放入 `engine/ProcGovernor/`
 - 腾讯 **GameShift**：系统级调优机制的调研参考
 - **图标素材**：糖猫头像直接取自表情包网图（仅作个人项目展示，版权归原作者所有；如需商用请自行替换）
+
+## 联系方式
+
+QQ：3998854990
 
 ## 开发记录
 
