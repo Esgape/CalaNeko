@@ -2,7 +2,7 @@
 
 > 面向 Windows 游戏场景的进程优化助手：自动调整 CPU / IO / 内存优先级，降低后台干扰，让游戏更流畅。
 
-CalaNeko（中文名待定）是一个轻量级 Windows 桌面工具，基于 Python 实现，通过 Web 界面管理。启动后它会持续监控游戏进程，自动将游戏进程提升到高优先级，同时把后台非必要进程降权，并支持一键还原。
+CalaNeko 是一个轻量级 Windows 桌面工具，基于 Python 实现，通过 Web 界面管理。启动后它会持续监控游戏进程，自动将游戏进程提升到高优先级，同时把后台非必要进程降权，并支持一键还原。
 
 ## 功能特性
 
@@ -39,7 +39,7 @@ http://127.0.0.1:18765
 | 通用 | 大多数游戏 | 默认配置 |
 | 卡拉彼丘·FPS | 卡拉彼丘、三角洲、瓦国服等 FPS | 针对 FPS 进程优化，ACE 降权可关 |
 | 单机游戏 | 3A / 独立游戏 | 常规优化 |
-| 联网二游 | 原神、星铁、绝区零等 | 反作弊进程处理 |
+| 联网二游 | 原神、异环、少前2等 | 进程处理 |
 
 可在 Web 界面中「存为预设」自定义，预设保存在 `config/presets/`。
 
@@ -77,6 +77,7 @@ python tests/test_core.py
 - **Pavise-Game**：崩溃自愈（HealFromCrash）、启动参数、单实例互斥设计
 - **[ProcGovernor](https://github.com/Prohect/ProcGovernor)**：可选第二引擎（Windows 进程治理工具），默认不内置，可自行下载放入 `engine/ProcGovernor/`
 - 腾讯 **GameShift**：系统级调优机制的调研参考
+- **图标素材**：糖猫头像直接取自表情包网图（仅作个人项目展示，版权归原作者所有；如需商用请自行替换）
 
 ## 开发记录
 
@@ -84,4 +85,12 @@ python tests/test_core.py
 
 ## License
 
-待定（作者未选择开源协议，默认保留所有权利，仅作展示与学习参考）。
+MIT License
+
+Copyright (c) 2026 Esgape
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
